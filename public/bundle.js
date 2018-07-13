@@ -26752,11 +26752,20 @@
 	var React = __webpack_require__(1);
 
 	var About = function About(props) {
-	   return React.createElement(
+	  return React.createElement(
+	    'div',
+	    null,
+	    React.createElement(
 	      'h3',
 	      null,
-	      'About Component'
-	   );
+	      'About'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Welcome to the about page.'
+	    )
+	  );
 	};
 	module.exports = About;
 
